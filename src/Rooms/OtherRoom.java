@@ -13,6 +13,7 @@ public class OtherRoom extends Room{
         occupant = x;
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
-        System.out.println("Other room");
+        System.out.println("You died.");
+        Runner.gameOff();
     }
 }
